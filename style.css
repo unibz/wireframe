@@ -1,0 +1,92 @@
+/* RESET & TYPOGRAPHY */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+	font-family: serif;
+	font-size: 16px;
+  line-height: 1.6;
+}
+@media screen and (min-width: 650px) {
+  body {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  body {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  body {
+    font-size: 22px;
+  }
+}
+
+/* LAYOUT */
+body {
+	width: 100%;
+}
+.wrap {
+  width: 85%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 650px) {
+  .wrap {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .wrap {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .wrap {
+    width: 800px;
+  }
+}
+
+/* NAV & HERO */
+.main-nav {
+  color: #fff;
+
+  display: flex;
+  justify-content: space-between;
+}
+.main-nav > * {
+  margin: 0;
+}
+.hero {
+  background-image: url("img/glocal.jpg");
+  background-size: cover;
+  text-align: center;
+  height: 20rem;
+  margin-top: 0;
+  padding: 1rem 0 2rem;
+  color: #fff;
+}
+.hero > h1 {
+  margin: 3rem;
+}
+
+/* CONTENT */
+.figure {
+  width: 100%;
+  height: auto;
+}
+
+/* CONTENT-SPECIFIC*/
+.academia {
+  margin: 2rem 0;
+  padding: 1rem 0;
+  background-color: #567CCD;
+  color: #fff;
+}
