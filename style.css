@@ -67,8 +67,9 @@ body {
 .hero {
   background-image: url("img/glocal.jpg");
   background-size: cover;
+  background-position: center;
   text-align: center;
-  height: 20rem;
+  height: 20em;
   margin-top: 0;
   padding: 1rem 0 2rem;
   color: #fff;
