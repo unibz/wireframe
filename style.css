@@ -113,6 +113,9 @@ body {
   width: 100%;
   height: auto;
 }
+.video {
+  width: 100%;
+}
 
 .button {
   width: 100%;
