@@ -96,6 +96,10 @@ body {
 .hero-design {
   background-image: url("img/atelier2.jpg");
 }
+.hero-study {
+  background-image: url("img/students.png");
+}
+
 .header-small {
   display: block;
   font-size: 0.8em;
@@ -112,7 +116,7 @@ body {
 
 .button {
   width: 100%;
-  margin: 2em auto;
+  margin: 1em auto;
   padding: 1em 2em;
   border: 2px solid black;
   text-align: center;
