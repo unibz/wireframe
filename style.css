@@ -31,7 +31,7 @@ body {
 }
 
 /* TYPOGRAPHY */
-h1, h2, h3 {
+h1, h2, h3, footer {
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -138,8 +138,44 @@ body {
 
 /* CONTENT-SPECIFIC*/
 .academia {
-  margin: 2rem 0;
+  margin: 2rem 0 0;
   padding: 1rem 0;
   background-color: #567CCD;
   color: #fff;
+}
+
+/* BOTTOM NAVIGATION */
+footer {
+  padding: 2rem 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-next, .footer-prev {
+  display: block;
+  width: 50%;
+}
+
+.footer-prev {
+  float: left;
+}
+
+.footer-prev:before {
+  content: "←";
+  margin-right: .5rem;
+}
+
+.footer-next {
+  float: right;
+  text-align: right;
+}
+
+.footer-next:after {
+  content: "→";
+  margin-left: .5rem;
 }
