@@ -138,11 +138,11 @@ body {
 footer {
   padding: 2rem 0;
   overflow: hidden;
-  background-color: #000000;
+  background-color: #000;
 }
 
 footer a {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
 }
 
