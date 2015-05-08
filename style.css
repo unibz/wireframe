@@ -34,6 +34,9 @@ body {
 h1, h2, h3, footer {
   font-family: Helvetica, Arial, sans-serif;
 }
+a {
+  pointer-events: none;
+}
 
 /* LAYOUT */
 body {
@@ -145,15 +148,16 @@ body {
 }
 
 /* BOTTOM NAVIGATION */
-footer {
+.bottom-nav {
   padding: 2rem 0;
   overflow: hidden;
   background-color: #000;
 }
 
-footer a {
+.bottom-nav a {
   color: #fff;
   text-decoration: none;
+  pointer-events: auto;
 }
 
 .footer-next, .footer-prev {
