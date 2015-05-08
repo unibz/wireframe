@@ -31,8 +31,8 @@ body {
 }
 
 /* TYPOGRAPHY */
-h1, h2, h3, footer {
-  font-family: Helvetica, Arial, sans-serif;
+h1, h2, h3, h4, .bottom-nav, .main-nav {
+  font-family: Helvetica, Arial, Roboto, sans-serif;
 }
 a {
   pointer-events: none;
@@ -67,10 +67,41 @@ body {
   color: #fff;
 
   display: flex;
-  justify-content: space-between;
+  align-items: baseline;
 }
 .main-nav > * {
   margin: 0;
+
+  display: flex;
+  align-items: baseline;
+}
+.left {
+  flex: 5 auto;
+}
+.right {
+  flex: 0 auto;
+}
+.navitem {
+  display: none;
+  margin-left: 1rem;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+}
+.menu {
+  margin: 0;
+}
+.right .menu {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+@media screen and (min-width: 900px) {
+  .navitem {
+    display: block;
+  }
+  .left .menu {
+    margin-right: 1rem;
+  }
 }
 .hero {
   position: relative;
@@ -91,16 +122,17 @@ body {
   line-height: 1.2;
 }
 .hero-home {
-  background-image: url("img/glocal.jpg");
-}
-.hero-emma {
-  background-image: url("img/tschafon.jpg");
+  background-image: url("home/glocal.jpg");
 }
 .hero-design {
-  background-image: url("img/atelier2.jpg");
+  background-image: url("bachelor/atelier2.jpg");
 }
 .hero-study {
-  background-image: url("img/students.png");
+  background-image: url("study/students.png");
+}
+/* redefine these with individual background images */
+.hero-economics, .hero-research, .hero-research-faculty, .hero-emma, .hero-students, .hero-study, .hero-competence-centre {
+  background-color: gray;
 }
 
 .header-small {
