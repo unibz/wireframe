@@ -1,4 +1,4 @@
-/* RESET & TYPOGRAPHY */
+/* RESET & BODY TYPOGRAPHY */
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -74,8 +74,11 @@ p {
   line-height: 1.4;
 }
 blockquote {
-  margin: 1em 0 1em 1em;
+  margin: 1em 0 1em 2em;
   font-style: italic;
+}
+blockquote > p {
+  margin-bottom: 0;
 }
 
 /* LAYOUT */
@@ -102,10 +105,36 @@ body {
   }
 }
 header {
+  position: relative;
   margin-bottom: 2em;
 }
+header:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: " ";
+  background-color: rgba(60, 123, 214, 0.5);
+  z-index: -1;
+}
 img {
-  margin: 0 0 1rem 0;
+  margin: 1rem 0;
+}
+.search {
+  margin-bottom: 1em;
+}
+.search > input {
+  width: 80%;
+  height: 40px;
+}
+.search > button {
+  width: 20%;
+  height: 40px;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
 }
 
 /* NAV & HERO */
@@ -152,6 +181,7 @@ img {
 }
 .hero {
   position: relative;
+  z-index: -2;
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -169,16 +199,32 @@ img {
   line-height: 1.2;
 }
 .hero-home {
-  background-image: url("home/glocal.jpg");
+  background-image: url("home/glocal2.jpg");
 }
 .hero-design {
   background-image: url("bachelor/atelier2.jpg");
 }
-.hero-study {
-  background-image: url("study/students.png");
+.hero-students {
+  background-image: url("students/students.jpg");
 }
+.hero-economics {
+  background-image: url('faculty/eco-hero.jpg');
+}
+.hero-research {
+  background-image: url('research/research-hero.jpg');
+}
+.hero-emma {
+  background-image: url('master/emma-hero.jpg');
+}
+.hero-study {
+  background-image: url('study/study-hero.jpg');
+}
+.hero-research-faculty {
+  background-image: url('research-faculty/research-hero.jpg');
+}
+
 /* redefine these with individual background images */
-.hero-economics, .hero-research, .hero-research-faculty, .hero-emma, .hero-students, .hero-study, .hero-competence-centre {
+.hero-competence-centre {
   background-color: gray;
 }
 
@@ -216,6 +262,15 @@ img {
   background-color: #3879d9;
   border: none;
   color: #ffffff;
+}
+@media screen and (min-width: 650px) {
+  .button-group {
+    display: flex;
+  }
+  .button:nth-child(2n) {
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+  }
 }
 
 /* CONTENT-SPECIFIC*/
