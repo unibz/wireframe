@@ -271,6 +271,9 @@ img {
     border-right: 1px solid #ffffff;
   }
 }
+.split {
+  display: inline-block;
+}
 
 /* CONTENT-SPECIFIC*/
 .academia {
