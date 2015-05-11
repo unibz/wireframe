@@ -223,9 +223,8 @@ img {
   background-image: url('research-faculty/research-hero.jpg');
 }
 
-/* redefine these with individual background images */
 .hero-competence-centre {
-  background-color: gray;
+   background-image: url('competence-centre/competence-4.jpg');
 }
 
 .header-small {
