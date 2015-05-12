@@ -119,6 +119,7 @@ header:after {
   z-index: -1;
 }
 img {
+  display: block;
   margin: 1rem 0;
 }
 .search {
