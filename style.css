@@ -168,6 +168,14 @@ img {
 .menu {
   margin: 0;
 }
+.lang {
+  display: none;
+}
+@media screen and (min-width: 650px) {
+  .lang {
+    display: block;
+  }
+}
 .right .menu {
   margin-left: 1rem;
   font-size: 1.2rem;
