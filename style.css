@@ -312,8 +312,15 @@ img {
 }
 
 /* BOTTOM NAVIGATION */
+body {
+  padding-bottom: 5rem;
+  /*margin-bottom: 4rem;*/
+}
 .bottom-nav {
-  padding: 2rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1.5rem 0;
   overflow: hidden;
   background-color: #000;
 }
