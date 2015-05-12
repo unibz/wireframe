@@ -171,7 +171,7 @@ img {
 .lang {
   display: none;
 }
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 1200px) {
   .lang {
     display: block;
   }
