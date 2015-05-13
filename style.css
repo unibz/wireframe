@@ -312,11 +312,14 @@ img {
 .academia {
   margin: 4em 0 0;
   padding: 2rem 0;
-  background-color: #567CCD;
+  background-color: #dd63a3;
   color: #fff;
 }
 .academia > .wrap > h2 {
   margin: 0 0 1em 0;
+}
+.academia-figure {
+  border: 2px solid #ffffff;
 }
 .news-item {
   margin-bottom: 2em;
