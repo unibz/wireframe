@@ -257,8 +257,11 @@ header:after {
 img {
   display: block;
   margin: 1rem 0;
+  max-width: 100%;
 }
 .figure {
+  display: block;
+  margin: 1rem 0;
   width: 100%;
   height: auto;
 }
