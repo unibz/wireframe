@@ -217,6 +217,8 @@ header:after {
   top: 50%;
   left: 50%;
   margin: 0;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
   line-height: 1.2;
 }
@@ -229,6 +231,8 @@ header:after {
   left: 50%;
   width: 300px;
   margin: 0;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
 }
 @media screen and (min-width: 650px) {
