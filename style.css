@@ -126,6 +126,7 @@ header:after {
 }
 .search > input {
   padding: 1rem;
+  font-size: 0.8em;
   width: 80%;
   height: 40px;
 }
