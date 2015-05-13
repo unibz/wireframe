@@ -118,10 +118,6 @@ header:after {
   background-color: rgba(60, 123, 214, 0.5);
   z-index: -1;
 }
-img {
-  display: block;
-  margin: 1rem 0;
-}
 .search {
   margin-bottom: 1em;
 }
@@ -260,6 +256,7 @@ img {
 }
 .figure {
   display: block;
+  margin: 1rem 0;
   width: 100%;
   height: auto;
 }
@@ -284,7 +281,7 @@ img {
   border: none;
   color: #ffffff;
 }
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 900px) {
   .button-group {
     display: flex;
   }
@@ -354,4 +351,8 @@ body {
 .footer-next {
   float: right;
   text-align: right;
+}
+
+.push--top {
+  margin-top: 1rem;
 }
