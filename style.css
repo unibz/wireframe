@@ -125,6 +125,7 @@ header:after {
   margin-bottom: 1em;
 }
 .search > input {
+  padding: 1rem;
   width: 80%;
   height: 40px;
 }
