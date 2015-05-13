@@ -292,7 +292,7 @@ img {
   color: #ffffff;
 }
 .button::after {
-  content: "\279D";
+  content: "→";
   margin-left: 1rem;
 }
 @media screen and (min-width: 900px) {
