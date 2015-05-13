@@ -151,19 +151,29 @@ header:after {
 .main-nav {
   color: #fff;
 
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   align-items: baseline;
 }
 .main-nav > * {
   margin: 0;
 
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   align-items: baseline;
 }
 .left {
+  -webkit-box-flex: 5 auto;
+  -moz-box-flex:  5 auto;
   flex: 5 auto;
 }
 .right {
+  -webkit-box-flex: 0 auto;
+  -moz-box-flex:  0 auto;
   flex: 0 auto;
 }
 .navitem {
@@ -305,6 +315,9 @@ img {
 }
 @media screen and (min-width: 900px) {
   .button-group {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
   }
   .button:nth-child(2n) {
