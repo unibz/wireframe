@@ -80,6 +80,9 @@ blockquote {
 blockquote > p {
   margin-bottom: 0;
 }
+hr {
+  margin: 3rem 0;
+}
 
 /* LAYOUT */
 body {
