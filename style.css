@@ -341,8 +341,11 @@ img {
 .news-item > p {
   line-height: 1.4;
 }
-.research-points > h4 {
+.research-point, .highlights__text {
   margin-bottom: 2em;
+}
+.research-figure {
+  margin: .5em 0;
 }
 
 /* BOTTOM NAVIGATION */
