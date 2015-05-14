@@ -356,6 +356,9 @@ img {
 .research-figure {
   margin: .5em 0;
 }
+.index-link {
+  pointer-events: auto;
+}
 
 /* BOTTOM NAVIGATION */
 body {
