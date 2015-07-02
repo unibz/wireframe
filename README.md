@@ -15,4 +15,4 @@ In order to achieve this goal together with the content team we start to refract
 After this step we work with the content team to translate the post-it structure into more detailed wireframes. In order to involve everyone in the process we decide to use Google Drawings. This service allow every team member to add and edit the content easily. You can check several pages always on our [project timeline](http://unibz.github.io/timeline/).
 
 ### Presentation
-Finally, when the content is ready, we move everything from Google Drawing to responsive wireframes hosted on GitHub Pages. You can view the developed pages [here](http://unibz.github.io/wireframe/).
+Finally, when the content is ready, we move everything from Google Drawing to responsive wireframes hosted on GitHub Pages. You can view the developed pages [here](http://unibz.github.io/wireframes/).
